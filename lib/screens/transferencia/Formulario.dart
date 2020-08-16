@@ -1,5 +1,5 @@
-import 'package:bytebank/components/Editor.dart';
-import 'package:bytebank/models/Transferencia.dart';
+import 'package:bytebank/components/editor.dart';
+import 'package:bytebank/models/transferencia.dart';
 import 'package:flutter/material.dart';
 
 class FormularioTransferencia extends StatefulWidget{
