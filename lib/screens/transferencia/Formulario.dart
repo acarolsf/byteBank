@@ -38,12 +38,14 @@ class FormularioTransferenciaState extends State<FormularioTransferencia> {
                 controller: widget._controladorNumeroConta,
                 dica: '0000',
                 rotulo: 'Número da Conta',
+                tipo: TextInputType.number,
               ),
               Editor(
                 controller: widget._controladorValor,
                 dica: '0.00',
                 rotulo: 'Valor',
                 icone: Icons.monetization_on,
+                tipo: TextInputType.number,
               ),
               RaisedButton(
                 child: Text('Confirmar'),
